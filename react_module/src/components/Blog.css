@@ -1,0 +1,29 @@
+.tcolor{
+    color: white;
+}
+.btn{
+    text-decoration: none;
+}
+
+.FliStyle{
+   text-align: left;
+    text-decoration: none;
+    color:hsla(0, 0%, 100%, 0.6);
+    font-size: 18px;
+    line-height: 40px;
+}
+.contactb{
+    color:hsla(0, 0%, 100%, .6);
+    text-decoration: none;
+}
+hr.solid {
+    border-top: 1.5px solid #ffffff;
+  }
+.icon{
+    color:hsla(0, 0%, 100%, .6);
+}
+
+.toptcolor{
+   background-color:  rgb(33, 107, 150);
+   color: white;
+}
