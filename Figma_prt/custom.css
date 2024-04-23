@@ -1,0 +1,273 @@
+body{
+   overflow-x: hidden;
+}
+
+.badge{
+    background-color:#04c57e;
+    font-size: 8px;
+  
+}
+.year{
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+ .box{
+    width: 43.51px;
+    height: 27px;
+    border-radius: 17.8px;
+    background: #6FDDB8;
+    text-align: center;
+ }
+
+ .year2{
+    font-family: Poppins;
+font-size: 15px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+ }
+
+ .subyear2{
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+ }
+
+ /*SIP btn class */
+ .sipbtn{
+    width: 178px;
+height: 45px;
+border-radius: 19.5px;
+background: #6FDDB8;
+ }
+
+ .btntext{
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+color: white;
+ }
+
+ .onetime{
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #676767;
+
+ }
+ .number{
+    font-family: Open Sans;
+font-size: 25px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 48%;
+ }
+
+ .past{
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+ }
+
+ .btnyear{
+    width: 114px;
+height: 40px;
+top: 1588px;
+left: 162px;
+border-radius: 33px;
+border: 1px;
+border: 1px solid #6FDDB8;
+
+ }
+
+ .textyear{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: #6FDDB8;
+ }
+
+ .normaltxt{
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+ }
+
+.n1{
+ font-family:  Open Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: left;
+color: #6FDDB8;
+ }
+
+ .headb{
+font-size: 22px;
+font-weight: 400;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 580px;
+ }
+
+ .subhead{
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+ }
+
+ .Equity{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+ }
+
+ .percentage{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+ }
+
+ .footerhead{
+    font-family: Open Sans;
+font-size: 23px;
+font-weight: 600;
+line-height: 42px;
+letter-spacing: 0em;
+text-align: left;
+ }
+
+ .adress{
+    font-family: Open Sans;
+font-size: 15px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+
+ }
+
+ .footertxt{
+font-size: 18px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+
+ }
+
+ .email{
+    font-family: Open Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+color: #222222;
+text-decoration: none;
+ }
+
+/* slider range style */
+
+ .slidcontainer{
+   width: 100%;
+ }
+
+ .slider{
+   -webkit-appearance:none;
+   appearance: none;
+width: 100%;
+height: 12px;
+border-radius: 7px;
+background: rgb(239, 207, 147);
+outline: none;
+opacity: 0.7;
+-webkit-transition: .2s;
+transition: opacity .2s;
+
+ }
+
+ .slider:hover{
+   opacity:1;
+ }
+
+ .slider::-webkit-slider-thumb{
+   -webkit-appearance:none;
+   appearance: none;
+   width: 25px;
+   height: 25px;
+   border-radius: 50%;
+   background: orange;
+   cursor: pointer;
+   
+ }
+.slider::-moz-range-thumb{
+   width: 25px;
+   height: 25px;
+   border-radius: 50%;
+   background: orange;
+   cursor: pointer;
+}
+
+/* Chart Js style */
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+      }
+      .chartMenu {
+        width: 100vw;
+        height: 40px;
+        background: #1A1A1A;
+        color: rgba(54, 162, 235, 1);
+      }
+      .chartMenu p {
+        padding: 10px;
+        font-size: 20px;
+      }
+      .chartCard {
+        width: 100vw;
+        height: calc(100vh - 40px);
+        background: rgba(54, 162, 235, 0.2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .chartBox {
+        width: 80%;
+        padding: 20px;
+        border-radius: 20px;
+        border: solid 3px rgba(54, 162, 235, 1);
+        background: white;
+      }

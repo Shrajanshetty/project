@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BASICS OF JAVASCRIPT</title>
+</head>
+<body>
+    <p id="demo">HELLO WORLD!</p>
+    <button  onclick='document.getElementById("demo").innerHTML= "HELLO JAVASCRIPT"'>Click Me</button>
+
+    <h1>VISIBLE AND INVISIBLE</h1>
+    <H4 id="DIS" style="display: none;">I am visible</H4>
+    <button type="button" onclick="document.getElementById('DIS').style.display='block'">click here</button>
+    <br>
+    <br>
+    <H4 id="INVI">click the button to INVISIBLE</H4>
+    <button type="button" onclick="document.getElementById('INVI').style.display='none'">click here</button>
+
+    <h2>Script is written in another file</h2>
+    <p id="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, qui?</p>
+    <button type="button" onclick="myFunction()">click here to change the txt</button>
+    <script src="anotherscript.js"></script>
+
+    <h2>This button is used for print the page</h2>
+    <button type="button" onclick="window.print()">print this page</button>
+
+    <h3 id="let"></h3>
+    <script>
+    let x = 10
+    let y = 10
+    let z = x+y;
+    document.getElementById('let').innerHTML="total value of x&y is:"+ z;
+     </script>
+
+    <h3 id="var"></h3>
+    <script>
+    var a = 10
+    var b = 10
+    var c = a+b;
+    document.getElementById('var').innerHTML="total value of x&y in var variable is:"+ z;
+    </script>
+
+    <h3 id="const"></h3>
+ <h3>Arayy using const</h3>
+    <p id="arr"></p>
+<script>
+const price1 = 5;
+const price2 = 10;
+let total = price1 + price2;
+document.getElementById("const").innerHTML =
+"The total is: " + total;
+
+const array =["MG","Lamborgine","BMW","Ferari"];
+ //replace using index
+ array[1]="Audi";
+ //add new item
+ array.push = "Benz";
+document.getElementById("arr").innerHTML=array;
+</script>
+<h2>Arrow Function examples</h2>
+<p id="arrow"></p>
+<h2>This example shows the syntax of an Arrow Function, and how to use it.</h2>
+<p id="arrow2"></p>
+<h2>Arrow Function With Parameters:</h2>
+<p id="arrow3"></p>
+<script>
+ let myArrow = (a, b) => a * b;
+document.getElementById("arrow").innerHTML=  myArrow(10,20);
+
+//arrow2
+let arrow = "";
+
+arrow= () =>{
+    return "Hello world";
+}
+document.getElementById("arrow2").innerHTML=arrow();
+
+//arrow3
+let para = (val) => "hello" + val
+document.getElementById("arrow3").innerHTML=para("World")
+</script>
+<h2>You can create a Map by passing an Array to the new Map() constructor</h2>
+<p id="map"></p>
+<h2>You can add elements to a Map with the set() method:</h2>
+<p id="map2"></p>
+<h2>forEach in map</h2>
+<p id="map3"></p>
+<script>
+    let fruits = new Map([
+        ["banana",20],
+        ["apple",40]
+    ]);
+    document.getElementById("map").innerHTML= fruits.get("apple");
+
+    // map2
+    //create a MAP
+    let fruits2 = new Map()
+    // set the MAP value
+    fruits2.set("jackfuits",100),
+    fruits2.set("Mango",200)
+
+    // delete the element
+    fruits2.delete("jackfuits");
+
+    document.getElementById("map2").innerHTML = fruits2.get("Mango");
+
+    // it return true is the key exists in MAP
+    // document.getElementById("map2").innerHTML = fruits2.has("Mango");
+    // You Can Check size of the Array Also
+    // document.getElementById("map2").innerHTML = fruits2.size;
+
+const car = new Map([
+    ["BMW",2000],
+    ["Audi",2001],
+    ["Benz",2002]
+]);
+let newCar = "";
+car.forEach (function(value,key){
+    newCar += key+ '=' +value+ "<br>"
+})
+document.getElementById("map3").innerHTML=newCar;
+</script>
+
+<h2>JavaScript Array forEach()</h2>
+<p id="each"></p>
+<script>
+    let newArr = "";
+    const arr2 =["apple","banana","mango"]
+    arr2.forEach(myFav);
+
+    function myFav(item,index){
+        newArr += index+ '='+item+'<br>';
+    }
+    document.getElementById("each").innerHTML=newArr
+</script>
+<h2>Import and Export here:</h2>
+<p id="imp"></p>
+<script type="module">
+import {id, name, age, adress} from "./anotherscript.js";
+let details= 'id '+id+ ' name '+name+ ' from' +adress+' age is '+age+".";
+document.getElementById("imp").innerHTML=details;
+</script>
+
+<h2>For Loop</h2>
+<p id="loop"></p>
+<script>
+    const arr3 = [1,2,3,4,5,6,7,8,9,10];
+    let newLoop = "";
+    for(let i=0;i<arr3.length;i++){
+        newLoop += arr3[i]+"<br>"
+    }
+    document.getElementById("loop").innerHTML=newLoop;
+</script>
+</body>
+</html>

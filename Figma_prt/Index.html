@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figma</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--fontawsome-->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!--google font style-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--CHART JS Cdn link-->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <!--stylesheet-->
+    <link href="custom.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light navbar-light pb-5 fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            class="tlogo"
+            src="Neosruge Black Transparent 1.png"
+            width="170px"
+            alt="navlogo"
+            style="margin-left: 45px"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active h3"
+                style="
+                  font-family: Poppins, sans-serif;
+                  font-size: 19px;
+                  font-weight: 600;
+                  line-height: 38px;
+                  letter-spacing: 0em;
+                  text-align: left;
+                  color: #0c97f0;
+                "
+                aria-current="page"
+                href="#"
+                >Mutual Funds</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link h3"
+                style="
+                  font-family: popin, sans-serif;
+                  font-size: 19px;
+                  font-weight: 400;
+                  line-height: 38px;
+                  letter-spacing: 0em;
+                  text-align: left;
+                  color: #272727;
+                "
+                href="#"
+                >Digital Gold</a
+              >
+            </li>
+            <a
+              class="nav-link h3"
+              style="
+                font-family: poppin, sans-serif;
+                font-size: 19px;
+                font-weight: 400;
+                line-height: 38px;
+                letter-spacing: 0em;
+                text-align: left;
+                color: #272727;
+              "
+              href="#"
+              >My Portfolio
+            </a>
+          </ul>
+          <div class="px-5">
+            <a href="#"
+              ><i class="fa-solid fa-wallet" style="color: #272727"></i
+            ></a>
+          </div>
+
+          <div class="px-5">
+            <a href="#"
+              ><i
+                class="fa-regular fa-bell position-relative"
+                style="color: #272727"
+                ><span
+                  class="badge position-absolute top-0 start-100 translate-middle border border-light rounded-pill"
+                  >3</span
+                ></i
+              ></a
+            >
+          </div>
+
+          <div class="px-5">
+            <a href="#"
+              ><img
+                src="photo.png"
+                width="26px"
+                style="
+                  color: #272727;
+                  background: linear-gradient(0deg, #dddddd, #dddddd),
+                    linear-gradient(0deg, #ffffff, #ffffff);
+                " /><i class="fa-solid fa-chevron-down"></i
+            ></a>
+          </div>
+
+          <div
+            class="position-absolute"
+            style="
+              font-family: Poppins;
+              font-size: 15px;
+              font-weight: 400;
+              line-height: 27px;
+              letter-spacing: 0em;
+              text-align: left;
+              top: 95px;
+              left: 15%;
+            "
+          >
+            <p>
+              <a href="#" style="color: #272727"
+                >Find Mutual Funds
+                <i
+                  class="fa-solid fa-chevron-right"
+                  style="padding-left: 10px"
+                ></i>
+              </a>
+            </p>
+          </div>
+
+          <div
+            class="position-absolute"
+            style="
+              font-family: Poppins;
+              font-size: 15px;
+              font-weight: 500;
+              line-height: 27px;
+              letter-spacing: 0em;
+              text-align: left;
+              top: 95px;
+              left: 38%;
+            "
+          >
+            <p>Mahindra Small Cap Fund</p>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container pt-5">
+      <div class="pt-5 mt-5">
+        <a href="#"
+          ><img
+            src="Icon.png"
+            style="width: 28.05px; height: 25.05px; top: 247.03px; left: 122px"
+        /></a>
+      </div>
+      <div class="d-flex">
+        <img
+          class="pt-3"
+          src="mahindra.png"
+          style="
+            width: 71.22px;
+            height: 71.22px;
+            top: 290px;
+            left: 122px;
+            border-radius: 1.55px;
+          "
+        />
+        <div class="p-2">
+          <h2
+            style="
+              font-family: Poppins;
+              font-size: 20px;
+              font-weight: 400;
+              line-height: 37px;
+              letter-spacing: 0em;
+              text-align: left;
+            "
+          >
+            Mahindra Small Cap Fund
+          </h2>
+          <p
+            style="
+              font-family: Poppins;
+              font-size: 15px;
+              font-weight: 700;
+              line-height: 27px;
+              letter-spacing: 0em;
+              text-align: left;
+              color: #626262;
+            "
+          >
+            Small Cap
+          </p>
+          <img src="Star 1.png" />
+          <img src="Star 2.png" />
+          <img src="Star 3.png" />
+          <img src="Star 4.png" />
+          <img src="Star 5.png" />
+        </div>
+        <div class="pt-2">
+          <h3
+            style="
+              font-family: Poppins;
+              font-size: 20px;
+              font-weight: 400;
+              line-height: 40px;
+              letter-spacing: 0em;
+              text-align: right;
+              color: #6fddb8;
+              padding-left: 150px;
+            "
+          >
+            37.06%
+          </h3>
+          <small
+            style="
+              font-family: Poppins;
+              font-size: 13px;
+              font-weight: 700;
+              line-height: 23px;
+              letter-spacing: 0em;
+              text-align: left;
+              padding-left: 150px;
+            "
+            >Returns( 5yrs )</small
+          >
+        </div>
+      </div>
+
+      <!--Box -->
+      <div
+        class="container pb-5 fixed-top"
+        style="
+          border: 1px solid #e4e4e4;
+          width: 399px;
+          border-radius: 12px;
+          top: 134.05px;
+          left: 870px;
+          margin-right: 5px;
+          box-shadow: 4px 4px 20px 0px #96969640;
+          z-index: -1;
+        "
+      >
+        <div class="d-flex justify-content-evenly pt-5">
+          <h5 class="d-flex flex-column">
+            Monthly SIP
+            <img
+              src="Rectangle 1105.png"
+              style="width: 115px; height: 4px; top: 369px; left: 972px"
+            />
+          </h5>
+          <h5>Lumpsum</h5>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <div class="mb-3 d-flex flex-column">
+            <label class="pb-3 pt-5">Enter Amount</label>
+            <button
+              type="button"
+              class="btn"
+              style="
+                background: #e6e6e6;
+                width: 314px;
+                height: 52px;
+                top: 431px;
+                left: 962px;
+                border-radius: 12px;
+                text-align: left;
+              "
+            >
+              5000
+            </button>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center">
+          <div class="mb-3 d-flex flex-column">
+            <label class="pb-3 pt-3">SIP Date</label>
+            <button
+              type="button"
+              class="btn"
+              style="
+                background: #e6e6e6;
+                width: 314px;
+                height: 52px;
+                top: 517px;
+                left: 962px;
+                border-radius: 12px;
+                text-align: left;
+              "
+            >
+              30th of every month
+            </button>
+          </div>
+        </div>
+        <div class="pt-5">
+          <button
+            type="button"
+            class="btn btn-primary"
+            style="
+              width: 190px;
+              height: 52px;
+              top: 650px;
+              left: 1024px;
+              border-radius: 52px;
+              margin-left: 75px;
+            "
+          >
+            Start SIP
+          </button>
+        </div>
+      </div>
+
+      <!--Chart Js Code-->
+      <div>
+        <button
+          type="button"
+          class="bg bg-primary rounded-pill"
+          onclick="updateChart()"
+          style="color: white"
+        >
+          Featch Now
+        </button>
+        <div
+          class="chart-container"
+          style="position: relative; height: 62vh; width: 96vw"
+        >
+          <canvas id="myChart"></canvas>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script>
+          // FetchData Block
+          function updateChart() {
+            async function fetchData() {
+              const url = "axisdata.json";
+              const response = await fetch(url);
+              //wait until the request has been completed
+              const datapoints = await response.json();
+              // console.log(datapoints);
+              return datapoints;
+            }
+
+            fetchData().then((datapoints) => {
+              const year = datapoints.pensionreport[0].pension.map(function (
+                index
+              ) {
+                return index.nav_date;
+              });
+              const value = datapoints.pensionreport[0].pension.map(function (
+                index
+              ) {
+                return index.nav_value;
+              });
+              const companyname = datapoints.pensionreport.map(function (
+                index
+              ) {
+                return index.companyname;
+              });
+              // console.log(year);
+              // console.log(value);
+              // console.log(companyname);
+              myChart.config.data.datasets[0].data = value;
+              myChart.config.data.datasets[0].label = companyname;
+              myChart.config.data.labels = year;
+              myChart.update();
+            });
+          }
+
+          // setup
+          const labels = [
+            "1 Mon 24",
+            "2 Tue 24",
+            "3 Wed 24",
+            "4 Thu 24",
+            "5 Fri 24",
+            "8 Mon 24",
+            "9 Tue 24",
+            "10 Web 24",
+            "11 Thu 24",
+            "12 Fri 24",
+            "15 Mon 24",
+            "16 Tue 24",
+            "17 Wed 24",
+            "18 Thu 24",
+            "19 Fri 24",
+            "22 Mon 24",
+            "23 Tue",
+            "24 Wed",
+            "25 Thu 24",
+            "26 Fri 24",
+          ];
+          const data = {
+            labels: labels,
+            datasets: [
+              {
+                label: "Mahindra Small Cap Fund",
+                data: [
+                  10, 11, 12, 10, 11, 12, 10, 11, 12, 10, 11, 12, 10, 11, 12,
+                  10, 11, 12, 10, 11, 12,
+                ],
+                tension: 0.2,
+              },
+            ],
+          };
+          //hoverLine plugin block
+          const hoverLine = {
+            id: "hoverLine",
+            afterDatasetsDraw(chart, args, plugins) {
+              const {
+                ctx,
+                tooltip,
+                chartArea: { top, bottom, left, right, width, heigh },
+                scales: { x, y },
+              } = chart;
+
+              if (tooltip._active.length > 0) {
+                const xCoordinates = x.getPixelForValue(
+                  tooltip.dataPoints[0].dataIndex
+                );
+                const yCoordinates = y.getPixelForValue(
+                  tooltip.dataPoints[0].parsed.y
+                );
+
+                ctx.save();
+                ctx.beginPath();
+                ctx.lineWidth = 3;
+                ctx.strokeStyle = "rgba(0,0,0,1)";
+                ctx.setLineDash([4, 4]);
+                ctx.moveTo(xCoordinates, yCoordinates);
+                ctx.lineTo(xCoordinates, bottom);
+                ctx.stroke();
+                ctx.closePath();
+                ctx.setLineDash([]);
+              }
+            },
+          };
+
+          // config
+          const config = {
+            type: "line",
+            data,
+            options: {
+              plugins: {
+                legend: {
+                  display: false,
+                },
+              },
+              scales: {
+                y: {
+                  beginAtZero: true,
+                  min: 5,
+                  ticks: {
+                    stepSize: 5,
+                  },
+                },
+                x: {
+                  ticks: {
+                    maxTicksLimit: labels.length / 2,
+                  },
+                },
+              },
+            },
+            plugins: [hoverLine],
+          };
+          // render init block
+          const myChart = new Chart(document.getElementById("myChart"), config);
+        </script>
+      </div>
+
+      <div class="container d-flex position-absolute justify-content-between">
+        <p
+          style="
+            font-family: Poppins;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 22px;
+            letter-spacing: 0em;
+            text-align: left;
+          "
+        >
+          19 Aug 2018
+        </p>
+        <p
+          style="
+            font-family: Poppins;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 22px;
+            letter-spacing: 0em;
+            text-align: right;
+            margin-right: 400px;
+          "
+        >
+          19 Nov 2021
+        </p>
+      </div>
+      <hr
+        class="blury hr mt-4"
+        style="
+          width: 730px;
+          top: 871.99px;
+          left: 122px;
+          border: 2.23px;
+          opacity: 0.3px;
+          background: #0d87f4;
+          border: 2.23px solid #0d87f4;
+        "
+      />
+      <div
+        class="container d-flex justify-content-evenly"
+        style="width: 500px; height: 20.03px; margin-left: 175px"
+      >
+        <p class="year">1M</p>
+        <p class="year">1Y</p>
+        <p class="box"><span class="year" style="color: #ffffff">3Y</span></p>
+        <p class="year">5Y</p>
+        <p class="year">All</p>
+      </div>
+
+      <!-- graph down text and year-->
+      <div class="pt-5 d-flex justify-content-between" style="width: 740px">
+        <h5 class="year2">Nav : 10 Dec 2021</h5>
+        <h5 class="subyear2">₹176.00</h5>
+        <h5 class="year2" style="margin-right: 121px">Rating</h5>
+        <h5 class="subyear2">NA</h5>
+      </div>
+
+      <div class="pt-4 d-flex justify-content-between" style="width: 740px">
+        <h5 class="year2">Min. SIP Amount</h5>
+        <h5 class="subyear2">₹100</h5>
+        <h5 class="year2">Fund size</h5>
+        <h5 class="subyear2">₹7,386.51Cr.</h5>
+      </div>
+
+      <h1
+        class="mt-5"
+        style="
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 38px;
+          letter-spacing: 0em;
+          text-align: left;
+        "
+      >
+        Return Calculator
+      </h1>
+
+      <div
+        class="container position-absolute"
+        style="
+          width: 730px;
+          height: 500px;
+          top: 980px;
+          left: 45px;
+          border-radius: 16px;
+          border: 1px;
+          border: 1px solid #e4e4e4;
+        "
+      >
+        <div class="d-flex justify-content-left">
+          <button type="button" class="btn mt-4 mx-4 sipbtn">
+            <span class="btntext">Monthly SIP</span>
+          </button>
+          <h1 class="onetime mx-4 mt-4">One Time</h1>
+        </div>
+
+        <!--slid Bar-->
+        <div class="slidcontainer">
+          <h1 class="pt-5" style="margin-left: 40%">
+            ₹ <span id="demo"></span>
+          </h1>
+          <input
+            type="range"
+            class="slider"
+            min="100"
+            max="2000"
+            value="500"
+            id="range"
+          />
+        </div>
+
+        <h3 class="past mt-5">Over the past</h3>
+
+        <div class="d-flex mt-3">
+          <button
+            type="button"
+            class="btn btnyear mx-3"
+            style="
+              font-family: Poppins;
+              font-size: 16px;
+              font-weight: 700;
+              line-height: 24px;
+              letter-spacing: 0em;
+              background: #6fddb8;
+              color: white;
+            "
+          >
+            1 Year
+          </button>
+          <button type="button" class="btn btnyear mx-3">
+            <span class="textyear">3 Years</span>
+          </button>
+          <button type="button" class="btn btnyear mx-3">
+            <span class="textyear">5 Years</span>
+          </button>
+        </div>
+
+        <div class="mt-5 normaltxt" style="width: 283px">
+          <p>
+            Total Investment of ₹60,000 would have become ₹72,677
+            <span class="n1">(27.79%)</span>
+          </p>
+        </div>
+      </div>
+
+      <!--Doughnut circle-->
+
+      <h1 class="headb">Holding Analysis</h1>
+      <h3 class="mt-4 subhead">Equity/ Debt / Cash Split</h3>
+      <div
+        class="chart-container"
+        style="position: relative; height: 85vh; width: 100vw"
+      >
+        <canvas id="doughNut"></canvas>
+      </div>
+
+      <p class="subhead">Equity sector allocation</p>
+      <div
+        class="chart-container"
+        style="position: relative; height: 97vh; width: 100vw"
+      >
+        <canvas id="doughNut2"></canvas>
+      </div>
+
+      <p class="subhead pb-5">Exit Load of 1% if redeemed within 15 days</p>
+    </div>
+
+    <!--FOOTER SECTION-->
+    <footer class="" style="background: #c4c4c5">
+      <div class="container pt-4 pb-5">
+        <div class="container row">
+          <div class="conatiner col-md-3">
+            <a href="#"><img src="Logo 2.png" width="150px" /></a>
+            <p class="adress pt-4">
+              No. 54, Jaynth Nagar, 5th Lane, 4th Block, Koremangala, Bangalore
+              - 560047
+            </p>
+            <div class="pb-3">
+              <a href="#"><img src="facebook.png" /></a>
+              <a href="#"><img src="tweeter.png" /></a>
+              <a href="#"><img src="Youtube.png" /></a>
+              <a href="#"><img src="instagram-2-1 1.png" /></a>
+            </div>
+            <p>+91-86696 06482</p>
+            <a href="Emailto:Email Us: support@bullsurge.in" class="email"
+              >Email Us: support@bullsurge.in</a
+            >
+          </div>
+
+          <div class="conatiner col-md-3">
+            <h1 class="footerhead">Products</h1>
+            <p class="footertxt">Mutual Funds</p>
+            <p class="footertxt">Digital Gold</p>
+          </div>
+
+          <div class="conatiner col-md-3">
+            <h1 class="footerhead">Bullsurge</h1>
+            <p class="footertxt">About us</p>
+            <p class="footertxt">Pricing</p>
+            <p class="footertxt">Blog</p>
+            <p class="footertxt">Careers</p>
+          </div>
+
+          <div class="conatiner col-md-3">
+            <h1 class="footerhead">Quick Links</h1>
+            <p class="footertxt">AMC Mutual Funds</p>
+            <p class="footertxt">Calculators</p>
+            <p class="footertxt">Glossary</p>
+            <p class="footertxt">Open DeMat account</p>
+            <a href="#"
+              ><img class="pt-5" src="get-it-on-google-play 1.png"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--Script For Rage Slider-->
+    <script>
+      var slider = document.getElementById("range");
+      var output = document.getElementById("demo");
+      output.innerHTML = slider.value;
+
+      slider.oninput = function () {
+        output.innerHTML = this.value;
+      };
+    </script>
+
+    <!--script js link-->
+    <script src="index.js"></script>
+  </body>
+</html>

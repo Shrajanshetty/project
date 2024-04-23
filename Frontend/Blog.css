@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+  }
+.navim{
+    display: flex;
+    justify-content: space-around;
+    background-color:white;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    }
+    a:link{
+        text-decoration: none;
+    }
+    a:visited{
+        color: rgb(0, 1, 2);
+    }
+    a:hover{
+        color:rgba(255, 0, 21, 0.836);
+        text-decoration: underline;
+    }
+
+    .footer{
+        background-color: black;
+        color: white;
+        display: flex;
+        justify-content:space-evenly;
+    }
+
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
